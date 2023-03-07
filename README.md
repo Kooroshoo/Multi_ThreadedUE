@@ -1,8 +1,6 @@
 # Multi_ThreadedUE4
  UE4 Multithreading Concepts
  
-Async code doesn’t HAVE to be implemented using threads. However, in Unreal you can assume that Async<T> and FAsyncTask<T> are implemented using threads. They are abstractions over threads so that you don’t have to do the (low level, error prone) work of managing threads.
- 
  - Multi-Threaded Blueprints
  
 ![primes](https://user-images.githubusercontent.com/26629624/223470379-42907fa8-9257-4d91-b354-75b4562257bf.gif)
@@ -15,6 +13,7 @@ This example calculates the first 10000 primes inside Blueprints on a seperate t
 
 This example loads the assets asynchronously to speed up loading speeds.
 
+Async code doesn’t HAVE to be implemented using threads. However, in Unreal you can assume that Async<T> and FAsyncTask<T> are implemented using threads. They are abstractions over threads so that you don’t have to do the (low level, error prone) work of managing threads.
 
 ## Limitations
 There are certain limitations when it comes to background threads:
