@@ -22,4 +22,24 @@ class MULTI_THREADEDLOADING_API IPartInterface
 
 	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
 public:
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+	void OnRandomLoad_Static();
+
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+	void OnRandomLoad_Skeletal();
+
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+	void OnLoopRandomLoad_Static();
+
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+	void OnLoopRandomLoad_Skeletal();
+
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+	void OnTryAsyncLoad_Static();
+
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+	void OnTryAsyncLoad_Skeletal();
+
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+	void OnUnload();
 };
