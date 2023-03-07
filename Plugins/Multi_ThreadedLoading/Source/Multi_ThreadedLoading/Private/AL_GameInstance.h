@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Engine/StreamableManager.h"
 #include "AL_GameInstance.generated.h"
 
 /**
@@ -12,4 +13,7 @@ UCLASS()
 class MULTI_THREADEDLOADING_API UAL_GameInstance : public UGameInstance
 {
 	GENERATED_BODY()
+
+public:
+	FStreamableManager AssetLoader;
 };
