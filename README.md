@@ -11,3 +11,5 @@ There are certain limitations when it comes to background threads:
 - Can’t create UObjects and derivatives.
 - Additional attention needs to be paid to Arrays and Maps since you can have thread safety issues if you’rewriting from multiple threads at once.
 
+#
+Unreal ver. 4.27
