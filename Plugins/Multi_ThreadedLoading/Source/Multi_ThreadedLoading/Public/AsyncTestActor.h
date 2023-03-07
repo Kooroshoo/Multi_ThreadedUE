@@ -20,7 +20,12 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Meshes")
+	class UAL_StaticMeshComp* AsyncStaticMesh;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Meshes")
+	class UAL_SkeletalMeshComp* AsyncSkeletalMesh;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Meshes")
+	class USceneComponent* DefaultSceneRoot;
 };
