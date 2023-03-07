@@ -2,13 +2,13 @@
  UE4 Multithreading Concepts
  
  - Multi-Threaded Blueprints
- - 
- ![primes](https://user-images.githubusercontent.com/26629624/223470379-42907fa8-9257-4d91-b354-75b4562257bf.gif)
  
+![primes](https://user-images.githubusercontent.com/26629624/223470379-42907fa8-9257-4d91-b354-75b4562257bf.gif)
+
 This example calculates the first 10000 primes on a seperate thread 
 
  - Asynchronous Asset Loading
- - 
+ 
 ![async](https://user-images.githubusercontent.com/26629624/223470581-bdfe6e12-b519-4018-9162-f6bdeea00b01.gif)
 
 This example loads the assets asynchronously to speed up loading speeds
